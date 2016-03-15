@@ -2,26 +2,26 @@
   <h1 class="title" ng-bind="welcome"></h1>
 </ion-header-bar>
 <ion-view view-title="Home" class="chat-detail">
-  <ion-content class="padding" delegate-handle="mainScroll">
+  <ion-content class="padding">
     <div ng-repeat="message in msgs" class="message-wrapper rlt">
       <div ng-if="message.received && !message.join">
         <img class="profile-picture left" src="img/exis.png" />
         <div class="chat-bubble left">
-          <div class="message">
-            {{ message.msg }}
-          </div>
           <div class="message-detail">
             <span class="message-time">{{ message.username }}</span>
+          </div>
+          <div class="message">
+            {{ message.msg }}
           </div>
         </div>
       </div>
       <div ng-if="!message.received && !message.join">
         <img class="profile-picture right" src="img/ionic.png"  />
         <div class="chat-bubble right">
-          <div class="message" ng-bind-html="message.msg">
-          </div>
           <div class="message-detail">
-            <span class="message-time">{{ message.username }}</span>
+            <span class="message-time">Me</span>
+          </div>
+          <div class="message" ng-bind-html="message.msg">
           </div>
         </div>
       </div>
