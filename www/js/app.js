@@ -40,6 +40,6 @@ angular.module('exisChat', ['ionic', 'ngRiffle', 'exisChat.controller'])
 })
 
 .config(function($riffleProvider){
-  $riffleProvider.setDomain('xs.demo.nickh.chat');
+  $riffleProvider.setDomain('xs.demo.USERNAME.chat');
 });
 
