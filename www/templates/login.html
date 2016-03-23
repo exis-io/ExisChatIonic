@@ -1,0 +1,19 @@
+<ion-header-bar class="bar-stable">
+  <h1 class="title">Exis Chat - Login</h1>
+</ion-header-bar>
+<ion-view view-title="Login" class="chat-detail">
+
+  <ion-content class="padding">
+  <h2>Pick a username to get started</h2>
+    <form>
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" ng-model="user" placeholder="{{firstUser}}">
+      </label>
+    </div>
+    <ion-toggle ng-model="stayLoggedIn.checked" toggle-class="toggle-calm">Stay Logged In</ion-toggle>
+    <button class="button button-full button-positive" type="submit" ng-click="login(user)">Submit</button>
+    <button class="button button-full button-light" type="submit" ng-click="clearCookies()">Clear Cookies</button>
+    </form>
+  </ion-content>
+</ion-view>

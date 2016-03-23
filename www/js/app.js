@@ -28,14 +28,19 @@ angular.module('exisChat', ['ionic', 'ngRiffle', 'exisChat.controller'])
   // Learn more here: https://github.com/angular-ui/ui-router
   $stateProvider
 
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'LoginCtrl'
+  })
   .state('home', {
     url: '/home',
     templateUrl: 'templates/home.html',
     controller: 'HomeCtrl'
-  })
+  });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/login');
 
 })
 
