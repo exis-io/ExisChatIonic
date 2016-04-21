@@ -45,7 +45,7 @@ Open the app in multiple tabs and chat away!
 
 ![Ionic app](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/ionic/ionic-chat.png)
 
-### Congrats on building a chat app using Exis + Ionic!!
+### :tada: :boom:  Congrats on building a chat app using Exis + Ionic!! :boom: :tada:
 
 **A step by step explanation of our code is provided below.**
 
