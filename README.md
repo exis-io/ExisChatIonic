@@ -52,8 +52,8 @@ Open the app in multiple tabs and chat away!
 ## Learn How It Works!
 ### Topics
 
-1. [The Code](#The-Code)
-2. [Launching A Node.js Backend](#Launching-A-Node.js-Backend)
+1. [The Code](#the-code)
+2. [Launching A Node.js Backend](#launching-a-nodejs-backend)
 
 ## The Code
 
@@ -110,7 +110,7 @@ It's called inside the `sendMsg` function which is bound to the send button in t
 
 And there you have it! Pretty simple right?!? There is a couple more things you can do below if you want to get a little fancy!
 
-## Launching a Node.js Backend
+## Launching a Node.JS Backend
 
 Let's take a quick look at how you could attach your own Node.js backend if you wanted. The simple backend we wrote will simply listen to messages that people are publishing and log them
 but you can fork our repo and and add whatever cool imaginative logic you'd like. We'll start with our simple logging server though.
