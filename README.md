@@ -19,7 +19,7 @@ This appliance controls who is allowed to communicate with your backend.
 ![Auth](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_attach_auth.png)
 ### Step 4
 Clone the Ionic App
-```
+```bash
 git clone https://github.com/exis-io/ExisChatIonic.git
 cd ExisChatIonic
 bower install
@@ -29,7 +29,7 @@ Link your Ionic App to the Exis App you just created
 
 Replace `USERNAME` with your Exis username in `xs.demo.USERNAME.chat` in `www/js/app.js` line 43:
 
-```
+```javascript
 .config(function($riffleProvider){
     $riffleProvider.SetDomain("xs.demo.USERNAME.chat");
 })
@@ -37,7 +37,7 @@ Replace `USERNAME` with your Exis username in `xs.demo.USERNAME.chat` in `www/js
 ### Step 6
 Run the Ionic App!
 
-```
+```bash
 ionic serve
 ```
 
@@ -58,7 +58,7 @@ Open the app in multiple tabs and chat away!
 ## The Code
 
 Let's take a quick look at the main logic of the chat app which is in `www/js/controller.js`.
-```
+```javascript
 angular.module('exisChat.controller', []) 
 
 .controller('HomeCtrl', function($scope, $riffle, $ionicScrollDelegate) {
