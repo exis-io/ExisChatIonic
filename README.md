@@ -43,7 +43,7 @@ ionic serve
 
 Open the app in multiple tabs and chat away!
 
-![Ionic app](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/ionic/ionic-chat.png)
+![Ionic app](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/ionic/ionic-chat.png)
 
 ### Congrats on building a chat app using Exis + Ionic!!
 
@@ -119,21 +119,21 @@ but you can fork our repo and and add whatever cool imaginative logic you'd like
 
 **Go to the [Appliance Store](https://exis.io/app/chat/appliances) and attach the [Container](https://exis.io/docs/appliances/Container) appliance to your app.**
 
-![Container](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/templates/web_attach_container.png)
+![Container](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_attach_container.png)
 
 **Go to [Container Management](https://exis.io/app/ionic/appliances)**
 
 **Build the image** by passing in your *forked* repo URL of [ExisChatBackend](https://github.com/exis-io/ExisChatBackend.git) from above, name it `exischat`.
 
-![Build Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/templates/web_container_buildimage.png)
+![Build Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_container_buildimage.png)
 
 **Create the image** from the dropdown on the left, call it `logger`.
 
-![Create Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/templates/web_container_createimage.png)
+![Create Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_container_createimage.png)
 
 **Start the container** by pressing the `Start` button below.
 
-![Start Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/templates/web_container_startimage.png)
+![Start Image](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_container_startimage.png)
 
 **Now messages you send on your Exis + Ionic chat app will be logged by your backend! To verify this you can send a few messages and then go to the Logs tab on your container.**
 Assuming you forked our repo like we suggested you can modify the `server.js` code locally and push your changes to your forked repo on Github and then simply update the image to see your
