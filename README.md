@@ -52,8 +52,8 @@ Open the app in multiple tabs and chat away!
 ## Learn How It Works!
 ### Topics
 
-1. [The Code](#The Code)
-2. [Launching A Node.js Backend](#Launching A Node.js Backend)
+1. [The Code](#The-Code)
+2. [Launching A Node.js Backend](#Launching-A-Node.js-Backend)
 
 ## The Code
 
