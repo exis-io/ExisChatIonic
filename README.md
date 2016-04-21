@@ -16,7 +16,7 @@ Add an **Auth** appliance
 **Use the options:** *Temporary (name, no password)* for the *User account type*
 
 This appliance controls who is allowed to communicate with your backend.
-![Auth](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assests/img/tutorials/templates/web_attach_auth.png)
+![Auth](http://my.exis.io.s3-website-us-west-2.amazonaws.com/assets/img/tutorials/templates/web_attach_auth.png)
 ### Step 4
 Clone the Ionic App
 ```
