@@ -1,8 +1,8 @@
-# Exis + Ionic Chat App Tutorial
+# How to use Exis to Create a Chat App in Ionic 
 
-Exis is a BaaS startup based out of Madison WI, the same hometown as Ionic. Exis is a platform that offers developers an easy set of tools for quickly developing their application and getting it out to market. Exis provides a set of free microservices such as user login and authentication, plug and play NoSQL-based cloud storage, cloud hosting of custom Node.JS backends, and a unique take on WebSockets that offers fully authenticated bi-directional messaging both peer-to-peer and with backend components. Exis has created and released ngRiffle a client-side library that integrates with Ionic and has recently been teaming up with Ionic to show just how simple app development can be when you combine the two. Exis gave a demonstration at Ionic Headquarters in March showcasing the following tutorial.
+Exis is a BaaS startup based out of the same hometown as Ionic (Madison, Wisconsin, USA). Exis is a platform that offers developers an easy set of tools for quickly developing their application and getting it out to market easier and with less errors. Exis provides a set of free microservices such as user login and authentication, plug and play NoSQL-based cloud storage, cloud hosting of custom Node.JS backends, and a unique take on WebSockets that offers fully authenticated bi-directional messaging both peer-to-peer and with backend components. Exis has created and released ngRiffle a client-side library that integrates with Ionic and has recently been teaming up with Ionic to show just how simple app development can be when you combine the two services. 
 
-Following this tutorial will result in creating a simple chat app using Exis + Ionic. This tutorial will showcase some of the core features that make using Exis + Ionic an excellent choice for app development including publish and subscribe messaging, and running a simple Node.js server hosted on Exis.
+Following this blog-tutorial results in creating a simple chat app using Exis + Ionic. This tutorial will showcase some of the core features that make using Exis + Ionic an excellent choice for app development including publish and subscribe messaging, and running a simple Node.js server hosted on Exis.
 
 ## Get Up and Running!
 ### Step 1
@@ -139,4 +139,4 @@ but you can fork our repo and and add whatever cool imaginative logic you'd like
 Assuming you forked our repo like we suggested you can modify the `server.js` code locally and push your changes to your forked repo on Github and then simply update the image to see your
 changes reflected.
 
-### Thanks for following this tutorial! Feel free to fork the repos and modify this app at you leisure! And if you'd like to show us what you did or you have any questions feel free to email us at [developers@exis.io](mailto:developers@exis.io)
+### Thanks for following this blog-tutorial! Feel free to fork the repos and modify this app! And if you'd like to show us what you did or you have any questions feel free to email us at [developers@exis.io](mailto:developers@exis.io)
